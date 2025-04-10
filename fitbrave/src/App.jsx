@@ -15,6 +15,7 @@ import Cart from './pages/Cart'
 import Login from './pages/Login'
 import PlaceOrder from './pages/PlaceOrder'
 import Footer from './components/Footer'
+import SearchBar from './components/SearchBar'
 
 // Define o componente principal App
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
 
       <Navbar />
+      <SearchBar/>
       {/* Define o sistema de rotas do aplicativo */}
       <Routes>
         {/* Define uma rota para a página inicial "/" e associa o componente <Home/> */}
